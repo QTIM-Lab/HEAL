@@ -1,0 +1,33 @@
+rotation:
+  init_value: 90.0
+  min_value: 0.0
+  max_value: 180.
+  max_decrease: -5.0
+  max_increase: 5.0
+  dtype: real
+
+scaling:
+  init_value: 0.2
+  min_value: 0.0
+  max_value: 0.5
+  max_decrease: -0.05
+  max_increase: 0.05
+  dtype: real
+
+translation:
+  init_value: 0.1
+  min_value: 0.0
+  max_value: 0.25
+  max_decrease: -0.05
+  max_increase: 0.05
+  dtype: real
+
+flip_horizontal:
+  mutation_rate: 0.1
+  init_value: True
+  dtype: binary
+
+flip_vertical:
+  mutation_rate: 0.1
+  init_value: True
+  dtype: binary
