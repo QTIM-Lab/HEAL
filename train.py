@@ -6,11 +6,11 @@ from os.path import join
 
 if __name__ == '__main__':
 
-	conf = load_config(join('heal', 'augmentation', 'default.yaml'))
+    conf = load_config(join('heal', 'augmentation', 'default.yaml'))
 
-	agents = [Agent(conf, name=f"Agent #{i}").randomize() for i in range(1, 2)]
-	
-	for g in range(0, 5):
-		for a in agents:
-			print(a)
-			a.step()
+    agents = [Agent(conf, name=f"Agent #{i}").randomize() for i in range(1, 2)]
+    
+    for g in range(0, 5):
+        for a in agents:
+            print(a)
+            a.step()
