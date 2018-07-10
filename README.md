@@ -1,2 +1,2 @@
 # HEAL
-Hierarchical Evolutionary Architecture Learning
+Hierarchical Evolutionary Architecture/Augmentation Learning
